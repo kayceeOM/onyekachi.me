@@ -1,3 +1,91 @@
 // @import 'bootstrap';
 
-body{ background-color: #fdfdfd; }
+body{
+  background-color: #fdfdfd;
+  font-family: 'PT Sans';
+}
+
+li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  margin-left: -1em;
+}
+
+a{
+  color: #777777;
+}
+
+.container{
+  max-width: 960px;
+}
+
+.header{
+  text-align: center;
+  font-style: italic;
+  padding: 30px;
+  border-top: 4px solid #ff1f40;
+
+  h1{
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ff1f40;
+    margin: 2px;
+    font-size: 32px;
+  }
+
+  .pronunciation{
+    font-size: 12px;
+    color: #777777;
+    margin: 0px;
+  }
+}
+
+
+.content{
+  margin: 10px 5px;
+
+  .bio{
+    font-style: italic;
+    font-size: 21px;
+    line-height: 1.4;
+    color: #222222;
+
+    p{
+       margin:20px 0 20px 0;
+     }
+  }
+
+  .my-picture{
+    height: 300px;
+    max-height: 480px;
+    padding: 10px;
+  }
+}
+
+.footer{
+  font-size: 12px ;
+  color: #aaaaaa;
+  padding: 20px 0px;
+  font-style: italic;
+  text-align: center;
+}
+
+@media (min-width: 768px){
+  .content{
+    margin: 20px 0;
+
+    .bio{
+      p{
+        margin:0 10px 30px 10px;
+      }
+    }
+
+    .my-picture{
+      height: 480px;
+      max-height: 480px;
+    }
+  }
+
+}
