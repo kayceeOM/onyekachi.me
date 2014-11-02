@@ -1,8 +1,16 @@
 // @import 'bootstrap';
 
+$primaryRed: #f9163d;
+$primaryBlack: #222222;
+$primaryGray: #777777;
+$lighterGray: #aaaaaa;
+$backgroundColor: #fdfdfd;
+$baseFontFamily: 'PT Sans';
+//@import url(http://fonts.googleapis.com/css?family='PT Sans'); //import PT Sans from google fonts
+
 body{
-  background-color: #fdfdfd;
-  font-family: 'PT Sans';
+  background-color: $backgroundColor;
+  font-family: $baseFontFamily;
 }
 
 li{
@@ -14,7 +22,11 @@ li{
 }
 
 a{
-  color: #777777;
+  color: $primaryGray;
+}
+
+a:hover{
+  color: $primaryRed;
 }
 
 .container{
@@ -25,19 +37,19 @@ a{
   text-align: center;
   font-style: italic;
   padding: 30px;
-  border-top: 4px solid #ff1f40;
+  border-top: 4px solid $primaryRed;
 
   h1{
     font-weight: 800;
     text-transform: uppercase;
-    color: #ff1f40;
+    color: $primaryRed;
     margin: 2px;
     font-size: 32px;
   }
 
   .pronunciation{
     font-size: 12px;
-    color: #777777;
+    color: $primaryGray;
     margin: 0px;
   }
 }
@@ -50,7 +62,7 @@ a{
     font-style: italic;
     font-size: 21px;
     line-height: 1.4;
-    color: #222222;
+    color: $primaryBlack;
 
     p{
        margin:20px 0 20px 0;
@@ -66,7 +78,7 @@ a{
 
 .footer{
   font-size: 12px ;
-  color: #aaaaaa;
+  color: $lighterGray;
   padding: 20px 0px;
   font-style: italic;
   text-align: center;
