@@ -31,9 +31,9 @@ end
 
 
 #my additional gems
-gem 'devise'
 gem 'bootstrap-sass'
 gem 'bootstrap3-rails'
+
 group :development do
   gem 'sqlite3'
 end
