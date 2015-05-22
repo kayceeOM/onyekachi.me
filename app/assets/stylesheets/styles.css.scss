@@ -84,6 +84,16 @@ a:hover{
   text-align: center;
 }
 
+
+h4{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bolder;
+  text-align: center;
+  color: $primaryGray;
+  margin-top: 2em;
+}
+
 @media (min-width: 768px){
   .content{
     margin: 20px 0;
