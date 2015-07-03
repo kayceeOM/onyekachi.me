@@ -21,6 +21,10 @@ li{
   margin-left: -1em;
 }
 
+.pronunciation{
+  font-style: italic;
+}
+
 a{
   color: $primaryGray;
 }
@@ -35,7 +39,6 @@ a:hover{
 
 .header{
   text-align: center;
-  font-style: italic;
   padding: 30px;
   border-top: 4px solid $primaryRed;
 
@@ -43,7 +46,7 @@ a:hover{
     font-weight: 800;
     text-transform: uppercase;
     color: $primaryRed;
-    margin: 20px 0 2px 0;
+    margin: 15px 0 3px 0;
     font-size: 32px;
   }
 
@@ -59,15 +62,15 @@ a:hover{
   margin: 10px 5px;
 
   .bio{
-    font-style: italic;
     font-size: 21px;
     line-height: 1.4;
     color: $primaryBlack;
 
     p{
-       margin:20px 0 20px 0;
+       margin: 6px 0;
      }
   }
+
 
   .my-picture{
     height: 300px;
@@ -80,7 +83,6 @@ a:hover{
   font-size: 12px ;
   color: $lighterGray;
   padding: 20px 0px;
-  font-style: italic;
   text-align: center;
 }
 
@@ -92,16 +94,16 @@ h4{
   text-align: center;
   color: $primaryGray;
   margin-top: 2em;
+  margin-bottom: 15px;
 }
+
 
 @media (min-width: 768px){
   .content{
     margin: 20px 0;
 
     .bio{
-      p{
-        margin:0 10px 30px 10px;
-      }
+      padding: 0;
     }
 
     .my-picture{
